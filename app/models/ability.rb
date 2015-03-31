@@ -3,7 +3,7 @@ include CanCan::Ability
 
   def initialize(user)
     user ||= User.new # guest user (not logged in)
-    if user.admin?
+    if user
       can :manage, Article
       can :manage, Comment
     else

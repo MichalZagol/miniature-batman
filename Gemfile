@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'rspec'
+gem 'rspec-rails', '~> 3.0'
 gem 'cancancan', '~> 1.10'
 gem "twitter-bootstrap-rails"
 gem "haml-rails", "~> 0.9"

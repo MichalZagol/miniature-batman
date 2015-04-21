@@ -49,6 +49,7 @@ group :development, :test do
   gem 'spring'
   gem 'simplecov', :require => false
   gem 'shoulda-matchers'
+  gem 'factory_girl_rails'
   
 end
 
